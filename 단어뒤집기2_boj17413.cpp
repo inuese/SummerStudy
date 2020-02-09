@@ -12,7 +12,6 @@ int main() {
 	str += "\n";
 	stack<char> s;
 	bool tag = false;
-	bool flg = false;
 	for (char ch : str) {
 		if (ch == '<' && s.empty()) {
 			tag = true;
